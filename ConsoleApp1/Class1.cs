@@ -31,11 +31,40 @@ public class DayOne
         Console.WriteLine($"{minutes} minutes converted into seconds is {seconds}");
     }
 
+    /// <summary>
+    /// Create a function that takes a number as an argument, increments the number by +1 and returns the result
+    /// </summary>
+    /// <example>
+    /// Addition(0) ➞ 1
+    /// Addition(9) ➞ 10
+
+    /// </example>
     public void NextNumber(int number)
     {
         var incnum = number + 1;
         Console.WriteLine($"the next number after {number} is :{incnum}");
-     }
+    }
 
+
+    public void PowerCircuitCalcu(int voltage, int current)
+    {
+        var power = voltage * current;
+        Console.WriteLine($"the power of the ciruit from voltage:{voltage} & current:{current} is {power}");
+    }
+
+    /// <summary>
+    /// Create a function that takes the age in years and returns the age in days.
+    /// </summary>
+    /// <example>
+    /// CalcAge(65) ➞ 23725
+    /// CalcAge(20) ➞ 7300
+    /// </example>
+    public void AgeToDays(int age)
+    
+    {
+        var yearlength = 365;
+        var days = age * yearlength;
+        Console.WriteLine($"the days of your {age} age is {days}");
+    }
     
 }
