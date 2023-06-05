@@ -122,4 +122,34 @@ public class DayOne
         if (sum < 100) { Console.WriteLine("true"); }
         else { Console.WriteLine("false"); }
     }
+
+    /// <summary>
+    /// Create a function that takes two integers and checks if they are equal.
+    /// </summary>
+    ///<example>
+    ///IsEqual(5, 6) ➞ false
+    ///IsEqual(1, 1) ➞ true
+    ///</example>
+    public void IsEqual(int num1, int num2)
+    {
+        if (num1 == num2)
+        {
+            Console.Write($"are {num1} and {num2} equal??::");
+            Console.WriteLine("true");
+        }
+        else { Console.WriteLine("false"); }
+    }
+
+
+    /// <summary>
+    /// Write a function that returns the string "something" joined with a space " " and the given argument a.
+    /// </summary>
+    /// <example>
+    /// GiveMeSomething("is better than nothing") ➞ "something is better than nothing"
+    /// GiveMeSomething("Bob Jane") ➞ "something Bob Jane"
+    /// </example>
+    public string GiveMeSomething(string text)
+    {
+        return ("something " + text);
+    }
 }
