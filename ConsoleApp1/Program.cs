@@ -22,4 +22,8 @@ dayOne.triArea(3.0F, 5.6F);
 Console.WriteLine();
 dayOne.Rem(5, 7);
 
+Console.WriteLine();
+dayOne.IsEqualZero(6);
 
+Console.WriteLine();
+dayOne.LessThanHundred(45, 67);
