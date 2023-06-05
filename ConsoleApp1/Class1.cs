@@ -66,5 +66,19 @@ public class DayOne
         var days = age * yearlength;
         Console.WriteLine($"the days of your {age} age is {days}");
     }
+
+
+    /// <summary>
+    /// a function that takes the base and height of a triangle and return its area.
+    /// </summary>
+    /// <example>
+    /// triArea(3, 2) ➞ 3
+    /// triArea(7, 4) ➞ 14
+    /// </example>
+    public void triArea(float length, float breadth)
+    {
+        var area = (length * breadth) / 2;
+        Console.WriteLine($"area of triangle of length:{length} & breadth{breadth} is {area}");
+    }
     
 }
