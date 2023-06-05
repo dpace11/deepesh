@@ -30,5 +30,11 @@ public class DayOne
         var seconds = minutes * 60;
         Console.WriteLine($"{minutes} minutes converted into seconds is {seconds}");
     }
+
+    public void NextNumber(int number)
+    {
+        var incnum = number + 1;
+        Console.WriteLine($"the next number after {number} is :{incnum}");
+     }
     
 }
