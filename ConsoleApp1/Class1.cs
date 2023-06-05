@@ -90,7 +90,36 @@ public class DayOne
     {
         var result = num1 % num2;
         Console.WriteLine($"remainder of {num1} & {num2} is {result}");
+    }
 
+    /// <summary>
+    /// Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+    /// </summary>
+    /// <param name="num"></param>
+    public void IsEqualZero(int num)
+    {
+        Console.Write($"is {num} equl to zero::");
+        if (num == 0)
+        {
+            Console.WriteLine("true");
+        }
+        else { Console.WriteLine("false"); }
+    }
 
+    /// <summary>
+    /// Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+    /// </summary>
+    /// <example>
+    /// lessThan100(22, 15) ➞ true
+    // 22 + 15 = 37
+    ///lessThan100(83, 34) ➞ false
+    // 83 + 34 = 117
+    /// </example>
+    public void LessThanHundred(int num1, int num2)
+    {
+        Console.Write($"is sum of {num1} & {num2} less than 100::");
+        var sum = num1 + num2;
+        if (sum < 100) { Console.WriteLine("true"); }
+        else { Console.WriteLine("false"); }
     }
 }
