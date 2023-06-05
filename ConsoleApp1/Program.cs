@@ -27,3 +27,9 @@ dayOne.IsEqualZero(6);
 
 Console.WriteLine();
 dayOne.LessThanHundred(45, 67);
+
+Console.WriteLine() ;
+dayOne.IsEqual(5, 5);
+
+Console.WriteLine();
+Console.WriteLine(dayOne.GiveMeSomething("is better than nothing"));
