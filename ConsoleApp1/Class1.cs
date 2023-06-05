@@ -18,4 +18,17 @@ public class DayOne
         Console.WriteLine($"the sum of {firstnum} and {secondnum} is {result}");
 
     }
+    /// <summary>
+    /// function to change minutes to seconds
+    /// </summary>
+    ///<example>
+    ///convert(5) ➞ 300
+    ///convert(3) ➞ 180
+    ///</example>
+    public void ConvertToMin(int minutes)
+    {
+        var seconds = minutes * 60;
+        Console.WriteLine($"{minutes} minutes converted into seconds is {seconds}");
+    }
+    
 }
