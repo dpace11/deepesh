@@ -152,4 +152,30 @@ public class DayOne
     {
         return ("something " + text);
     }
+
+
+
+    /// <summary>
+    /// Create a function that reverses a boolean value
+    /// </summary>
+    /// <param name="n"></param>
+    public bool Reverse(bool n)
+    {
+        if (n == true)
+        {
+            Console.WriteLine($"opposite of {n} is false");
+            return true;
+        }
+        else 
+        {
+            Console.WriteLine($"opposite of {n} is true");
+            return false;
+        }
+    }
+
+    public int howManyseconds(int hour)
+    {
+        var sec = hour * 60 * 60;
+        return (sec); 
+    }
 }
