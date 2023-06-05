@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿DayOne dayOne = new();
+dayOne.Sum(10, 15);
 
