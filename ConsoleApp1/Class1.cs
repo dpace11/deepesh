@@ -36,5 +36,6 @@ public class DayOne
         var incnum = number + 1;
         Console.WriteLine($"the next number after {number} is :{incnum}");
      }
+
     
 }
