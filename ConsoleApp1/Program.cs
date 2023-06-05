@@ -17,3 +17,8 @@ int x=int.Parse(Console.ReadLine());
 dayOne.AgeToDays(x);
 
 
+Console.WriteLine(); 
+dayOne.triArea(3.0F, 5.6F);
+
+
+
