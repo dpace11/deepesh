@@ -33,3 +33,9 @@ dayOne.IsEqual(5, 5);
 
 Console.WriteLine();
 Console.WriteLine(dayOne.GiveMeSomething("is better than nothing"));
+
+Console.WriteLine();
+dayOne.Reverse(true);
+
+Console.WriteLine();
+Console.WriteLine($"there are {dayOne.howManyseconds(2)} in 2 hours");
