@@ -16,9 +16,10 @@ Console.WriteLine("enter your age");
 int x=int.Parse(Console.ReadLine());
 dayOne.AgeToDays(x);
 
-
-Console.WriteLine(); 
+Console.WriteLine();
 dayOne.triArea(3.0F, 5.6F);
 
+Console.WriteLine();
+dayOne.Rem(5, 7);
 
 
