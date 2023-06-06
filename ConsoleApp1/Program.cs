@@ -42,4 +42,7 @@ Console.WriteLine($"there are {dayOne.howManyseconds(2)} in 2 hours");
 
 Console.WriteLine();
 int[] numbers = new int[3] { 3, 6, 9 };
-Console.WriteLine($"the first element of {numbers} is {dayOne.getFirstValue(numbers)}");
+Console.WriteLine($"the first element of {numbers[0]},{numbers[1]},{numbers[2]} is {dayOne.getFirstValue(numbers)}");
+
+Console.WriteLine();
+Console.WriteLine($"the maximun range of traiangle third edge={dayOne.nextEdge(8,10)}");

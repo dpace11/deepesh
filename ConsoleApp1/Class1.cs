@@ -60,7 +60,7 @@ public class DayOne
     /// CalcAge(20) ➞ 7300
     /// </example>
     public void AgeToDays(int age)
-    
+
     {
         var yearlength = 365;
         var days = age * yearlength;
@@ -85,7 +85,7 @@ public class DayOne
     /// There is a single operator in C#, capable of providing the remainder of a division operation. 
     /// Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
     /// </summary>
-   
+
     public void Rem(int num1, int num2)
     {
         var result = num1 % num2;
@@ -166,7 +166,7 @@ public class DayOne
             Console.WriteLine($"opposite of {n} is false");
             return true;
         }
-        else 
+        else
         {
             Console.WriteLine($"opposite of {n} is true");
             return false;
@@ -176,7 +176,7 @@ public class DayOne
     public int howManyseconds(int hour)
     {
         var sec = hour * 60 * 60;
-        return (sec); 
+        return (sec);
     }
 
 
@@ -191,5 +191,17 @@ public class DayOne
     {
         return (num[0]);
 
+    }
+
+    /// <summary>
+    /// Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers
+    /// </summary>
+    /// <example>
+    /// nextEdge(8, 10) ➞ 17
+    /// nextEdge(5, 7) ➞ 11
+    /// </example>
+    public int nextEdge(int sideone, int sidetwo)
+    {
+        return ((sideone + sidetwo) - 1);
     }
 }
