@@ -205,7 +205,10 @@ public class DayOne
         return ((sideone + sidetwo) - 1);
     }
 
-
+    /// <summary>
+    /// function that takes a number (from 1 to 12) and returns its corresponding month name as a string.
+    /// </summary>
+    
     public void  MonthName(int month)
     {
         switch (month)
