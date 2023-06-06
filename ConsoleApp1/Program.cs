@@ -39,3 +39,7 @@ dayOne.Reverse(true);
 
 Console.WriteLine();
 Console.WriteLine($"there are {dayOne.howManyseconds(2)} in 2 hours");
+
+Console.WriteLine();
+int[] numbers = new int[3] { 3, 6, 9 };
+Console.WriteLine($"the first element of {numbers} is {dayOne.getFirstValue(numbers)}");

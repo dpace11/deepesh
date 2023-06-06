@@ -178,4 +178,18 @@ public class DayOne
         var sec = hour * 60 * 60;
         return (sec); 
     }
+
+
+    /// <summary>
+    ///Create a function that takes an array containing only numbers and return the first element. 
+    /// </summary>
+    /// <exampe>
+    /// getFirstValue([1, 2, 3]) ➞ 1
+    /// getFirstValue([80, 5, 100]) ➞ 80
+    /// </exampe>
+    public int getFirstValue(int[] num)
+    {
+        return (num[0]);
+
+    }
 }
