@@ -1,4 +1,6 @@
-﻿DayOne dayOne = new();
+﻿using System.Transactions;
+
+DayOne dayOne = new();
 
 dayOne.Sum(10, 15);
 Console.WriteLine();
@@ -46,3 +48,9 @@ Console.WriteLine($"the first element of {numbers[0]},{numbers[1]},{numbers[2]} 
 
 Console.WriteLine();
 Console.WriteLine($"the maximun range of traiangle third edge={dayOne.nextEdge(8,10)}");
+
+Console.WriteLine();
+Console.WriteLine("enter month number");
+int month = int.Parse(Console.ReadLine());
+dayOne.MonthName(month);
+
